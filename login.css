@@ -1,0 +1,165 @@
+.wrapper {
+    width: 500px;
+    height: 800px;
+    background: linear-gradient(
+359deg
+, #c6f0eee0, transparent);
+    /* border: 5px solid #ddd; */
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 2px 11px -2px black;
+}
+.login {
+    width: 350px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 130px;
+}
+span.Welcome {
+    font-size: 40px;
+    font-family: inherit;
+}
+.Welcome, input, a {
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input {
+    outline: none;
+    border: none;
+    text-align: center;
+    display: block;
+    width: 300px;
+    background: #58303005;
+}
+a{
+    text-decoration: none;
+    color: rgb(127, 127, 128);
+}
+button {
+    outline: none;
+    border: 1px solid rgba(195, 132, 49, 0.746);
+    width: 350px;
+    padding: 12px;
+    background: rgba(195, 132, 49, 0.746);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 3px 12px -3px black;
+}
+button:hover{
+    background: none;
+    color: rgb(212, 142, 29);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.Connect {
+    outline: none;
+    margin-top: 30px;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.746);
+    width: 330px;
+    height: 25px;
+    padding: 12px;
+    background: none;
+    color: rgb(173, 173, 173);
+    font-size: 25px;
+    box-shadow: 0px 2px 9px -3px black;
+    border-radius: 50px;
+}
+.Connect p{
+    display: inline-block;
+    margin-top: -28px;
+    font-size: 25px;
+    margin-left: 15px;
+    transition: all 0.4s ease;
+}
+.Connect a {
+    margin-top: -20px;
+    font-size: 25px;
+    width: 127px;
+    color: rgb(33 69 112 / 69%);
+}
+a.a1 {
+    float: left;
+    margin-left: -13px;
+    border-radius: 38px 0px 0px 38px;
+    margin-top: -13px;
+    padding: 6px;
+    /* height: 14px; */
+    width: 165px;
+    background: #805b6abf;
+    color: rgba(148, 9, 27, 0.986);
+}
+a.a2 {
+    float: right;
+    margin-right: -13px;
+    border-radius: 0px 38px 38px 0px;
+    margin-top: -13px;
+    padding: 6px;
+    /* height: 14px; */
+    width: 166px;
+    background: #bc5f0fd1;
+}
+i {
+    border: 1px solid #fff;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 4px;
+    border-color: azure;
+}
+a.a1 i{
+    color: #fff;
+}
+a.a1 i, a.a2 i {
+    border-color: aqua;
+}
+a.a1:hover i{
+    color: rgba(68, 56, 54, 0.979);
+    border-color: crimson;
+    background: rgb(155, 153, 153);
+    transition: all 0.5s ease;
+}
+a.a1:hover{
+    background: rgba(221, 132, 179, 0.65);
+    color: rgb(10, 131, 20);
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+a.a2 i{
+    color: #fff;
+}
+a.a2 i, a.a2 i {
+    border-color: aqua;
+}
+a.a2:hover i{
+    color: rgb(16, 91, 231);
+    border-color: crimson;
+    transition: all 0.5s ease;
+}
+a.a2:hover{
+    background: rgba(219, 217, 218, 0.65);
+    color: rgb(0, 76, 255);
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+.signe{
+    color: crimson;
+    height: 0;
+    margin-left: -10px;
+}
+
+.signe:hover{
+    color: rgb(15, 83, 241);
+    text-decoration: underline;
+}
+.SignUp{
+    font-size: 18px;
+}
