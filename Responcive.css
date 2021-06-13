@@ -184,9 +184,12 @@
 
 
 .ticon a i {
+    font-size: 40px;
     color: #584a29;
     background: #e2e2e2;
     transition: all 0.5s ease;
+    margin-left: -18px;
+    margin-top: -5px;
 }
 
 .ticon a i:hover {
