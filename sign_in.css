@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.min-menu {
+    background: #eeeeee;
+    margin: auto;
+}
+
+.min-menu ul li {
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.min-menu ul li a {
+    text-decoration: none;
+    color: rgb(221, 218, 218);
+    display: block;
+    font-size: 20px;
+    padding: 15px 0;
+    transition:all 1s ease;
+    background: black;
+    border: 1px solid #353535;
+}
+
+.min-menu ul li a:hover {
+    color: #ddd;
+    background: #0f950f;
+}
+.min-menu ul li ul li a {
+    color: rgb(45, 82, 7);
+    background: rgb(41, 41, 41);
+}
+ul li ul li {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    
+}
+ul li:hover ul li{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    
+}
+
+
+
+i#link {
+    color: #fff;
+    float: right;
+    right: 3px;
+    margin-top: 5px;
+    position: absolute;
+    font-size: 25px;
+    padding: 6px 12px;
+}

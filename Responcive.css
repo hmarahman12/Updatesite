@@ -1,0 +1,219 @@
+@media (max-width:1139px){
+    .conteiner {
+        width: 1140px;
+    }
+    .header-top {
+        float: left;
+        width: 400px;
+        
+    }
+    .header-top-right {
+        float: right;
+        width: 500px;
+        text-align: right;
+        margin-right: 0px;
+    }
+    .min-menu {
+        float: right;
+        width: 730px;
+        margin-right: 0;
+    }
+
+    
+}
+@media (max-width:650px){
+    .conteiner {
+        width: 1140px;
+    }
+    .ticon {
+        width: 30px;
+        float: right;
+        margin-top: 10px;
+        display: block;
+        margin-right: 0;
+    }
+    .header-top-right {
+        float: right;
+        width: 390px;
+        text-align: right;
+        margin-right: 0px;
+    }
+    .min-menu {
+        float: right;
+        width: 730px;
+        margin-right: 180px;
+        display: none;
+    }
+}
+
+@media (max-width:550px){
+    
+    .header-top-right {
+        float: right;
+        width: 390px;
+        text-align: right;
+        margin-right: 100px;
+    }
+    .ticon {
+        width: 30px;
+        float: right;
+        margin-top: 10px;
+        display: block;
+        margin-right: 100px;
+    }
+   
+}
+
+@media (max-width:1900px) {
+    .video-left {
+        height: 600px;
+        width: 687px;
+        position: absolute;
+        margin-top: -122px;
+        z-index: -1;
+    }
+
+.our_Facilities_right {
+    width: 900px;
+    height: 524px;
+    float: right;
+    background: #051f6961;
+    padding: 52px;
+}
+}
+@media (max-width:1140px) {
+    .video-left {
+        height: 600px;
+        width: 687px;
+        position: absolute;
+        margin-top: -122px;
+        z-index: -1;
+    }
+
+.our_Facilities_right {
+    width: 900px;
+    height: 524px;
+    float: right;
+    background: #051f6961;
+    padding: 52px;
+    }
+
+    /******new****/
+    .about_Upcoming {
+        margin-top: 250px;
+        height: 1200px;
+    }
+    .background-right {
+        width: 1140px;
+    }
+    .about_Upcoming {
+        margin-top: 250px;
+        height: 1200px;
+        width: 100%;
+    }
+    .About-us {
+        float: left;
+        width: 50%;
+        height: 550px;
+    }
+    
+    .up-coming-1 {
+        width: 550px;
+        height: 640px;
+        background: rgb(255 255 255 / 87%);
+        border-radius: 10px;
+        margin-top: -62px;
+    }
+    .upcoming {
+        width: 12%;
+        position: absolute;
+        right: 40px;
+    }
+    .About-us h3::after {
+        content: "";
+        display: none;
+    }
+}
+
+@media (max-width:1140px){
+    section.Featured_T {
+        height: 880px;
+    }
+    .conteiner {
+        width: 1140px;
+        margin: auto;
+    }
+    .Featured_Teachers_left {
+        width: 524px;
+        float: left;
+        margin: 100px 0;
+    }
+    .img_Right {
+        width: 616px;
+        height: 800px;
+        float: right;
+        margin: 100px 0 0 0;
+    }
+    
+    .about_Upcoming .apply-min {
+        position: absolute;
+        margin-top: 700px;
+        width: 1140px;
+    }
+    .apply-left {
+        width: 50%;
+        float: left;
+        background: #07294D;
+        border-radius: 5px 0 0px 5px;
+    }
+    .apply-right {
+        width: 50%;
+        float: right;
+        background: #092E56;
+        border-radius: 0 5px 5px 0px;
+    }
+
+    body{
+        width: 1140px;
+    }
+}
+
+
+
+
+
+
+.ticon a i {
+    color: #584a29;
+    background: #e2e2e2;
+    transition: all 0.5s ease;
+}
+
+.ticon a i:hover {
+    color: #fff;
+    background: black;
+    transform: rotate(180deg);
+}
+
+i#seting {
+    font-size: 80px;
+    position: absolute;
+    color: #ddd;
+    top: 190px;
+    transition: all 1s ease;
+}
+i#seting:hover {
+    color: #0d2458;
+    cursor: pointer;
+}
+i#seting{
+    position: absolute;
+    animation:seting 5s linear infinite
+   
+  }
+
+  @keyframes seting {
+    0% {transform: rotate(0deg);}
+    
+    100% {transform: rotate(360deg)}
+  }
