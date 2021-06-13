@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Register {
+    width: 500px;
+    height: 750px;
+    background: linear-gradient(
+365deg
+, rgba(192, 242, 186, 0.33), rgba(203, 242, 236, 0.29));
+    border-radius: 10px;
+    margin: 100px auto auto;
+    text-align: center;
+    box-shadow: black 0px 2px 11px -2px;
+}
+form{
+    padding: 25px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background: rgba(221, 221, 221, 0.13);
+    border: none;
+    outline: none;
+    text-align: center;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    background: #b7db9352;
+    color: #e6670d;
+    font-size: 18px;
+    outline: none;
+    margin-top: -11px;
+}
+button:hover{
+    background: rgba(220, 20, 60, 0.877);
+    color: cyan;
+    border-color: rgb(212, 142, 212);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    margin: 10px;
+}
+span.type a {
+    text-decoration: none;
+}
+.reset {
+    width: 60px;
+    height: 25px;
+    margin: 8px;
+    background: #00ffff42;
+    border-radius: 15px;
+    color: #ff0052;
+}
+hr{
+    width: 300px;
+    margin: auto;
+}
+input[type="radio"] {
+    margin: 0px 10px;
+}
+input[type="date"] {
+    margin: 5px;
+}
+select {
+    width: 300px;
+    font-size: 25px;
+}
+b {
+    font-size: 18px;
+    color: #4d4d4c;
+}
